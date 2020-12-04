@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  	<security-role>
+		<role-name>admin</role-name>
+	</security-role>
+
+	<security-constraint>
+		<display-name>Weather Security</display-name>
+		<web-resource-collection>
+			<web-resource-name>Weather Security</web-resource-name>
+			<url-pattern>/Component/Admin/Admin.jsp</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<description>권한 관리자명</description>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
+	
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<form-login-config>
+			<form-login-page>/Component/Admin/Login.jsp</form-login-page>
+			<form-error-page>/Component/Admin/Login_failed.jsp</form-error-page>
+		</form-login-config>
+	</login-config>
+	
+	<error-page>
+		<error-code>404</error-code>
+		<location>/Component/exceptionNoPage.jsp</location>
+	</error-page>
+</web-app>
+
+
+
