@@ -8,7 +8,9 @@
 <link rel="stylesheet" href="../resources/css/bootstrap.min.css" />
 <link rel="stylesheet" href="../resources/css/weather.css" />
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+
+
+
 
 <title>Weather-Fit</title>
 </head>
