@@ -2,7 +2,10 @@
 호스팅 주소 :  https://weatherfit.herokuapp.com/Component/Weather.jsp   
 (서버 초기접속시 다수의 시간 소요)   
 (호스팅 서버의 톰캣 미지원 관계로 다국어처리, 업로드, 관리자 페이지등 문제가 다수 발생-로컬 실행시 정상작동)   
--서버 호스팅을 위해 maven project로 작업
+-서버 호스팅을 위해 maven project로 작업    
+
+### [실행 가이드]
+> 프로젝트 import 후, Java Resources -> src -> main -> webapp -> Component -> Weather.jsp 실행 (서버 호스팅을 위해 maven project로 변환 후 작업)
 
 --------------------------------
 
