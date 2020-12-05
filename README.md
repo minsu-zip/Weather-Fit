@@ -98,7 +98,7 @@
  --------------------
  ## 페이지 구조
  <div>
-  <img src=" https://user-images.githubusercontent.com/52727782/101235423-dc974080-370b-11eb-8bfa-e0d238fae371.png">
+  <img src="https://user-images.githubusercontent.com/52727782/101235423-dc974080-370b-11eb-8bfa-e0d238fae371.png">
  </div>
  
  ## 화면 구성
