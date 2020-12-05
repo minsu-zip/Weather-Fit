@@ -1,10 +1,11 @@
 <!-- HomePage : 실시간 현재 위치의 날씨를 간략히 알려줌  -->
-<%@ page language="java" contentType="text/html; charset=utf-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
 <link rel="stylesheet" href="../resources/css/bootstrap.min.css" />
 <link rel="stylesheet" href="../resources/css/weather.css" />
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

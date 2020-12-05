@@ -1,7 +1,5 @@
 <!-- Dress추가 역할을 하는 페이지 사용자가 입력한 값을 받아와서 저장해줌 -->
 <%@ page language="java" contentType="text/html; charset=utf-8"%>
-<%@ page import="dto.Dress"%>
-<%@ page import="dao.DressRepository"%>
 <%@ page import="com.oreilly.servlet.*"%>
 <%@ page import="com.oreilly.servlet.multipart.*"%>
 <%@ page import="java.util.*"%>
@@ -9,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+
 <title>Insert title here</title>
 </head>
 <body>
@@ -20,7 +18,7 @@
 		request.setCharacterEncoding("UTF-8");
 
 		String filename = "";
-		String realFolder = "D:/eclipse/3-2웹프/Weather/WebContent/resources/images";
+		String realFolder = "D:/eclipse/3-2웹프/Weather-Fit/src/main/webapp/resources/images";
 		int maxSize = 5 * 1024 * 1024;
 		String encType = "utf-8";
 		MultipartRequest multi = new MultipartRequest(request, realFolder, maxSize, encType, new DefaultFileRenamePolicy());
