@@ -96,6 +96,10 @@
   weather.js : 현재 위치를 받아와 openWeather APi를 사용하여 현재 위치를 넣어주고 위치에 해당하는 실시간 날씨 정보를 받아오는 js <br/>
   
  --------------------
+ ## 페이지 구조
+ <div>
+  <img src=" https://user-images.githubusercontent.com/52727782/101235423-dc974080-370b-11eb-8bfa-e0d238fae371.png">
+ </div>
  
  ## 화면 구성
  <div>
