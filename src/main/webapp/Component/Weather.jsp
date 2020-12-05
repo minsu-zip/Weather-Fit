@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../resources/css/weather.css" />
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
 
 
 

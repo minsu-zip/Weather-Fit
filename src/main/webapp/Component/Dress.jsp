@@ -1,5 +1,7 @@
 <!-- Dress 정보들을 보여주는 페이지 -->
 <%@ page language="java" contentType="text/html; charset=utf-8"%>
+
+
 <%@ page import="java.sql.*"%>
 <!DOCTYPE html>
 <html>

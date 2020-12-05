@@ -1,5 +1,7 @@
 <!-- 찜목록을 처리하는 페이지 해당 item 정보를 받아와 리스트에 넣어준다 -->
-<%@ page language="java" contentType="text/html; charset=utf-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="dto.Dress"%>
 <%@ page import="dao.DressRepository"%>

@@ -1,5 +1,7 @@
 <!-- 찜목록 페이지  AddCart에서 기입한 정보를 받아와 화면에 구성해준다. -->
-<%@ page language="java" contentType="text/html; charset=utf-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
 <!DOCTYPE html>
 <html>
 <head>
